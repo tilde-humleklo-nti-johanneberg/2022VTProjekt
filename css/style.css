@@ -27,8 +27,74 @@ align-items: center;
 width: 20%;
 }
 
+.navActive {
+    transform: translate(100vh);
+}
+
 .navlinks li {
 
     list-style: none;
 }
+
+.navlinks a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navLinks {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+position: absolute;
+right: 0px;
+height: 90vh;
+top: -90vh;
+background-color: blueviolet;
+align-items: center;
+width: 20%;
+}
+
+.burger div {
+width: 25px;
+height: 3px;
+background-color: black;
+margin: 5px;
+border-radius: 10px;
+transition: all 0,3s;
+}
+
+
+
+.toggle .line1 {
+transform: rotate(45deg) translate(-5px, 6px);
+
+}
+    
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(-45deg) translate(-5px, -6px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
