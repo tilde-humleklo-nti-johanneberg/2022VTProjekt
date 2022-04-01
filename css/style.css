@@ -10,7 +10,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 10vh;
-background-color: rgb(63, 141, 243);
+background-color: rgb(95, 74, 74);
 font-family: sans-serif;
 }
 
@@ -22,7 +22,7 @@ position: absolute;
 right: 0px;
 height: 90vh;
 top: 10vh;
-background-color: rgb(63, 141, 243);
+background-color: rgb(95, 74, 74);
 align-items: center;
 width: 20%;
 }
@@ -52,7 +52,7 @@ position: absolute;
 right: 0px;
 height: 90vh;
 top: -90vh;
-background-color: rgb(63, 141, 243);
+background-color: rgb(95, 74, 74);
 align-items: center;
 width: 13rem;
 transition: all 1s;
@@ -88,7 +88,6 @@ nav {
     justify-content: flex-end;
     align-items: center;
     height: 10vh;
-    background-color: rgb(38, 90, 233);
     font-family: sans-serif;
     grid-area: na;
 
@@ -101,14 +100,17 @@ nav {
 
 
 footer {
- background-color: black;
  height: 220px;
  grid-area: ft;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ border: black solid 1px;
+
 }
 
 section {
     height: 200px;
-    background-color: blueviolet;
     grid-area: se;
     font-size: 3rem;
     display: flex;
@@ -119,9 +121,9 @@ section {
 }
 
 main {
-    height: 300px;
-    background-color: chocolate;
 grid-area: ma;
+display: flex;
+justify-content: center;
 }
 
 #wrapper {
@@ -130,10 +132,38 @@ grid-area: ma;
     'na na na'
     'se se se'
     'ma ma ma'
-    'ma ma ma'
-    'ma ma ma'
-    'ft ft ft'
+    'ft ft ft';
     ;
+}
+
+#yoga {
+width: 600px;
+height: 500px;
+
+}
+
+body {
+
+background-image: url("../img/augustine-wong-li0iC0rjvvg-unsplash.jpg");
+background-size: cover;
+
+}
+
+#insta {
+width: 50px;
+height: 50px;
+
+}
+
+#twitter {
+width: 50px;
+height: 50px;
+}
+
+#youtube {
+    width: 50px;
+    height: 50px;
+
 }
 
 
