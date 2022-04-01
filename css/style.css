@@ -324,6 +324,59 @@ height: 50px;
 
 }
 
+#fir{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+
+}
+
+#hatha{
+height: 400px;
+width: 500px;
+margin: 30px;
+
+}
+
+#yin{
+
+    height: 400px;
+    width: 500px;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+#for{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+#yinflow{
+height: 400px;
+width: 500px;
+margin: 30px;
+
+}
+
+#bikram{
+    height: 400px;
+    width: 500px;
+    margin: 30px;
+}
+
+
+
+
+
 
 
 
