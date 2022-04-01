@@ -91,6 +91,7 @@ nav {
     font-family: sans-serif;
     grid-area: na;
 
+
 }
 
 .burger {
@@ -136,6 +137,7 @@ justify-content: center;
     ;
 }
 
+
 #yoga {
 width: 600px;
 height: 500px;
@@ -164,6 +166,85 @@ height: 50px;
     width: 50px;
     height: 50px;
 
+}
+
+#klä {
+height: 400px;
+display: flex;
+justify-content: space-around;
+margin-bottom: 15px;
+
+}
+
+#acc {
+height: 500px;
+display: flex;
+justify-content: space-around;
+padding-top: 15px;
+
+
+}
+
+#trojor {
+ height: 400px;
+ width: 300px;
+ border: 1px solid black;
+ 
+
+}
+
+#byxor {
+height: 400px;
+width: 300px;
+border: 1px solid black;
+
+
+}
+
+#sett {
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+
+}
+
+#upp {
+font-size: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid black;
+border-radius: 10px;
+margin: 20px;
+
+}
+
+#title {
+font-size: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+display: flex;
+position: absolute;
+top: 15px;
+right: 44%;
+}
+
+#mattor {
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+
+}
+
+#redskap {
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+#vatten {
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
 }
 
 
